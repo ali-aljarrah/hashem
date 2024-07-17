@@ -28,7 +28,7 @@
                 <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
                     <div class="location-card">
                         <div>
-                            <img class="img-fluid mb-2" loading="lazy" width="202" height="73" src="/assets/imgs/logo.webp" alt="Hashems - Location -1">
+                            <img class="img-fluid mb-2" loading="lazy" width="120" height="53" src="/assets/imgs/logo-hashem.webp" alt="Hashems - Location -1">
                             <div class="fs-16 black-color mb-3">Roastery & Market</div>
                             <div class="fs-24 black-color mb-2">Dearborn</div>
                             <div class="fs-16 black-color mb-1">13041 W. Warren Ave</div>
@@ -43,7 +43,7 @@
                 <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
                     <div class="location-card">
                         <div>
-                            <img class="img-fluid mb-2" loading="lazy" width="202" height="73" src="/assets/imgs/logo.webp" alt="Hashems - Location -1">
+                            <img class="img-fluid mb-2" loading="lazy" width="120" height="53" src="/assets/imgs/logo-hashem.webp" alt="Hashems - Location -1">
                             <div class="fs-16 black-color mb-3">Roastery & Market</div>
                             <div class="fs-24 black-color mb-2">Dearborn Heights</div>
                             <div class="fs-16 black-color mb-1">26509 Ford Rd.</div>
@@ -58,7 +58,7 @@
                 <div class="col-lg-4 mx-auto mb-4 mb-lg-0">
                     <div class="location-card">
                         <div>
-                            <img class="img-fluid mb-2" loading="lazy" width="202" height="73" src="/assets/imgs/logo.webp" alt="Hashems - Location -1">
+                            <img class="img-fluid mb-2" loading="lazy" width="120" height="53" src="/assets/imgs/logo-hashem.webp" alt="Hashems - Location -1">
                             <div class="fs-16 black-color mb-3">Mahmasat Hashem</div>
                             <div class="fs-24 black-color mb-2">Bint Jbeil, Lebanon</div>
                             <div class="fs-16 black-color mb-1">Sahat Al Saraya</div>

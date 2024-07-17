@@ -12,7 +12,7 @@
                     <div class="d-flex align-items-center">
                         <a href="/" class="breadcrumb-link">Home</a>
                         <span class="mx-2 fs-18">/</span>
-                        <a href="/subcategory" class="breadcrumb-link">Hashems Favorites</a>
+                        <a href="/favorites" class="breadcrumb-link">Hashems Favorites</a>
                     </div>
                     <div class="mt-3 cat-banner" style="background-image: url(/assets/imgs/subcategory/coffee.webp)">
                         <div class="row">

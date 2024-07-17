@@ -24,7 +24,7 @@
             <div class="col-md-6">
               <div class="d-flex justify-content-end align-items-center">
               <a
-                  href="#"
+                  href="/login"
                   class="text-decoration-none black-color fs-14 me-4 d-flex justify-content-start align-items-center"
                 >
                   <span class="me-2">
@@ -79,9 +79,9 @@
                   <img
                     class="img-fluid"
                     loading="lazy"
-                    width="217"
-                    height="79"
-                    src="/assets/imgs/logo.webp"
+                    width="114"
+                    height="96"
+                    src="/assets/imgs/logo-2.webp"
                     alt="Hashems - LOGO"
                   />
                 </a>
@@ -1182,11 +1182,11 @@
       <div class="third-nav d-none d-lg-flex">
         <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="#">New</a>
         <div class="mx-4">|</div>
-        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="#">Sale</a>
+        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="/best-sellers">Sale</a>
         <div class="mx-4">|</div>
-        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="#">Gift Center</a>
+        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="/gift-center">Gift Center</a>
         <div class="mx-4">|</div>
-        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="#">Bundle & Save</a>
+        <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="/bundle-and-save">Bundle & Save</a>
         <div class="mx-4">|</div>
         <a class="text-decoration-none fs-16 black-color fw-600 mx-4" href="#">Custom Creations</a>
       </div>

@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //     treeWrapper.classList.add("show")
     // }, 3000);
 
-    // var startUpModal = new bootstrap.Modal(document.getElementById("startUpModal"), {});
+    var startUpModal = new bootstrap.Modal(document.getElementById("startUpModal"), {});
 
-    // startUpModal.show();
+    startUpModal.show();
 
 });
 

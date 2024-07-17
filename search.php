@@ -10,7 +10,7 @@
                 <div class="col-md-3 mb-4 mb-md-0">
                     <div class="pe-0 pe-md-3">
                         <form action="#" method="#">
-                            <div class="fs-24 black-color fw-600 mb-4">Search filter</div>
+                            <div class="fs-24 black-color fw-600 mb-3">Search filter</div>
                             <div class="mb-4 search-input-wrapper">
                                 <span class="icon">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,34 +19,448 @@
                                 </span>
                                 <input type="text" placeholder="search keyword">
                             </div>
+                            <div class="fs-24 black-color fw-600 mb-3">Filter By</div>
+                            <hr class="opacity-100">
                             <div class="accordion" id="accordionFilter">
-                                <div class="accordion-item">
+                                <div class="accordion-item mb-0">
                                     <div class="accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Popular Searches
+                                        Diets & ingredients
                                         </button>
                                     </div>
                                     <div id="collapseFive" class="accordion-collapse collapse show">
                                         <div class="accordion-body">
-                                            <div class="d-flex flex-wrap">
-                                                <a href="/search" class="popular-search">Turkish coffee</a>
-                                                <a href="/search" class="popular-search">Bread</a>
-                                                <a href="/search" class="popular-search">Baklava</a>
-                                                <a href="/search" class="popular-search">Nuts</a>
-                                                <a href="/search" class="popular-search">Roasted</a>
-                                                <a href="/search" class="popular-search">Gummies</a>
-                                                <a href="/search" class="popular-search">Sauce</a>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Sulfite-free">
+                                                <label class="form-check-label" for="Sulfite-free">
+                                                Sulfite-free (35)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Vegan">
+                                                <label class="form-check-label" for="Vegan">
+                                                Vegan (24)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Sugar-free">
+                                                <label class="form-check-label" for="Sugar-free">
+                                                Sugar-free (23)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Kosher-Dairy">
+                                                <label class="form-check-label" for="Kosher-Dairy">
+                                                Kosher Dairy (12)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Gluten-free">
+                                                <label class="form-check-label" for="Gluten-free">
+                                                Gluten-free (18)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Kosher-Pareve">
+                                                <label class="form-check-label" for="Kosher-Pareve">
+                                                Kosher Pareve (16)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Certified-Gluten-free">
+                                                <label class="form-check-label" for="Certified-Gluten-free">
+                                                Certified Gluten-free (3)
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
                                     <div class="accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Availability
+                                        Category
                                         </button>
                                     </div>
                                     <div id="collapseTwo" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Coffee">
+                                                <label class="form-check-label" for="Coffee">
+                                                Coffee (70)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Tea">
+                                                <label class="form-check-label" for="Tea">
+                                                Tea (40)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Drink-Powders">
+                                                <label class="form-check-label" for="Drink-Powders">
+                                                Drink Powders (16)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered">
+                                                <label class="form-check-label" for="Chocolate-Covered">
+                                                Chocolate-Covered Espresso Beans (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolates">
+                                                <label class="form-check-label" for="Chocolates">
+                                                Chocolates (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Bubble-Tea">
+                                                <label class="form-check-label" for="Bubble-Tea">
+                                                Bubble Tea (13)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Nuts-Plant">
+                                                <label class="form-check-label" for="Nuts-Plant">
+                                                Nuts & Plant Based Milk (6)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Type
+                                        </button>
+                                    </div>
+                                    <div id="collapseSix" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        Size
+                                        </button>
+                                    </div>
+                                    <div id="collapseSeven" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        Roast
+                                        </button>
+                                    </div>
+                                    <div id="collapseEight" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        Chocolate Type
+                                        </button>
+                                    </div>
+                                    <div id="collapseNine" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        Flavor
+                                        </button>
+                                    </div>
+                                    <div id="collapseTen" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item mb-0">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                        Color
+                                        </button>
+                                    </div>
+                                    <div id="collapseEleven" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Caffeinated">
+                                                <label class="form-check-label" for="Caffeinated">
+                                                Caffeinated (33)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Whole-Bean">
+                                                <label class="form-check-label" for="Whole-Bean">
+                                                Whole Bean (65)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Ground">
+                                                <label class="form-check-label" for="Ground">
+                                                Ground (64)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Chocolate-Covered-1">
+                                                <label class="form-check-label" for="Chocolate-Covered-1">
+                                                Chocolate Covered (25)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Loose-Tea">
+                                                <label class="form-check-label" for="Loose-Tea">
+                                                Loose Tea (22)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value="" id="Decaf">
+                                                <label class="form-check-label" for="Decaf">
+                                                Decaf (15)
+                                                </label>
+                                            </div>
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" type="checkbox" value="" id="Candied-Nuts">
+                                                <label class="form-check-label" for="Candied-Nuts">
+                                                Candied Nuts (5)
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="opacity-100">
+                                <div class="accordion-item">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Availability
+                                        </button>
+                                    </div>
+                                    <div id="collapseThree" class="accordion-collapse collapse show">
                                         <div class="accordion-body">
                                             <div class="form-check mb-2">
                                                 <input class="form-check-input" type="radio" name="availability" id="inStock">
@@ -1604,164 +2018,165 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="container mt-4">
-                        <div>
-                        <h5 class="fs-24 black-color fw-600 d-flex align-items-center">
-                            <span>Top Recipes</span>
-                            <a class="fs-14 green-color ms-5 text-decoration-none" href="#"
-                            >Explore recipes >>
-                            </a>
-                        </h5>
+    <section class="py-5">
+        <div class="container mt-4">
+            <div>
+                <h5 class="fs-24 black-color fw-600 d-flex align-items-center">
+                    <span>Top Recipes</span>
+                    <a class="fs-14 green-color ms-5 text-decoration-none" href="#"
+                    >Explore recipes >>
+                    </a>
+                </h5>
+            </div>
+            <div class="row mt-4">
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <a href="#" class="text-decoration-none">
+                    <div class="top-item">
+                        <div class="image mb-3">
+                        <img
+                            width="362"
+                            height="215"
+                            loading="lazy"
+                            class="img-fluid"
+                            src="/assets/imgs/home/bread-1.webp"
+                            alt="Hashems Roasted Vegetable Baked Falafel Sandwiches"
+                        />
                         </div>
-                        <div class="row mt-4">
-                            <div class="col-xl-3 col-lg-6 mb-5">
-                                <a href="#" class="text-decoration-none">
-                                <div class="top-item">
-                                    <div class="image mb-3">
-                                    <img
-                                        width="362"
-                                        height="215"
-                                        loading="lazy"
-                                        class="img-fluid"
-                                        src="/assets/imgs/home/bread-1.webp"
-                                        alt="Hashems Roasted Vegetable Baked Falafel Sandwiches"
-                                    />
-                                    </div>
-                                    <div class="d-flex justify-content-between  px-1 pb-2">
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
-                                                <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
-                                            </svg>
-                                                30 mins 
-                                        </div>
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                                Beginner
-                                        </div>
-                                    </div>
-                                    <div class="px-1">
-                                        <div class="fs-16 fw-600 black-color line-h-normal">
-                                            Roasted Vegetable Baked Falafel Sandwiches
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
+                        <div class="d-flex justify-content-between  px-1 pb-2">
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
+                                    <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
+                                </svg>
+                                    30 mins 
                             </div>
-                            <div class="col-xl-3 col-lg-6 mb-5">
-                                <a href="#" class="text-decoration-none">
-                                <div class="top-item">
-                                    <div class="image mb-3">
-                                    <img
-                                        width="362"
-                                        height="215"
-                                        loading="lazy"
-                                        class="img-fluid"
-                                        src="/assets/imgs/home/falafel.webp"
-                                        alt="Hashems Herby Baked Falafel Bites with Spicy Mint Tahini Dip"
-                                    />
-                                    </div>
-                                    <div class="px-1 d-flex justify-content-between pb-2">
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
-                                                <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
-                                            </svg>
-                                                60 mins 
-                                        </div>
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                                Intermediate
-                                        </div>
-                                    </div>
-                                    <div class="px-1">
-                                        <div class="fs-16 fw-600 black-color line-h-normal">
-                                            Herby Baked Falafel Bites with Spicy Mint Tahini Dip
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    Beginner
                             </div>
-                            <div class="col-xl-3 col-lg-6 mb-5">
-                                <a href="#" class="text-decoration-none">
-                                <div class="top-item">
-                                    <div class="image mb-3">
-                                    <img
-                                        width="362"
-                                        height="215"
-                                        loading="lazy"
-                                        class="img-fluid"
-                                        src="/assets/imgs/home/bread-2.webp"
-                                        alt="Hashems Grilled Eggplant And Zucchini Sabich Pita"
-                                    />
-                                    </div>
-                                    <div class="px-1 d-flex justify-content-between  pb-2">
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
-                                                <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
-                                            </svg>
-                                                30 mins 
-                                        </div>
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                                Beginner
-                                        </div>
-                                    </div>
-                                    <div class="px-1">
-                                        <div class="fs-16 fw-600 black-color line-h-normal">
-                                            Grilled Eggplant And Zucchini Sabich Pita
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 mb-5">
-                                <a href="#" class="text-decoration-none">
-                                <div class="top-item">
-                                    <div class="image mb-3">
-                                    <img
-                                        width="362"
-                                        height="215"
-                                        loading="lazy"
-                                        class="img-fluid"
-                                        src="/assets/imgs/home/meat-1.webp"
-                                        alt="Hashems Grilled Lamb Skewers with Couscous Tabbouleh"
-                                    />
-                                    </div>
-                                    <div class="px-1 d-flex justify-content-between  pb-2">
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
-                                                <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
-                                            </svg>
-                                                1 hr 15 mins 
-                                        </div>
-                                        <div class="fs-14 gray-color-2 line-h-normal">
-                                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                                Intermediate
-                                        </div>
-                                    </div>
-                                    <div class="px-1">
-                                        <div class="fs-16 fw-600 black-color line-h-normal">
-                                            Grilled Lamb Skewers with Couscous Tabbouleh
-                                        </div>
-                                    </div>
-                                </div>
-                                </a>
+                        </div>
+                        <div class="px-1">
+                            <div class="fs-16 fw-600 black-color line-h-normal">
+                                Roasted Vegetable Baked Falafel Sandwiches
                             </div>
                         </div>
                     </div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <a href="#" class="text-decoration-none">
+                    <div class="top-item">
+                        <div class="image mb-3">
+                        <img
+                            width="362"
+                            height="215"
+                            loading="lazy"
+                            class="img-fluid"
+                            src="/assets/imgs/home/falafel.webp"
+                            alt="Hashems Herby Baked Falafel Bites with Spicy Mint Tahini Dip"
+                        />
+                        </div>
+                        <div class="px-1 d-flex justify-content-between pb-2">
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
+                                    <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
+                                </svg>
+                                    60 mins 
+                            </div>
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    Intermediate
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="fs-16 fw-600 black-color line-h-normal">
+                                Herby Baked Falafel Bites with Spicy Mint Tahini Dip
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <a href="#" class="text-decoration-none">
+                    <div class="top-item">
+                        <div class="image mb-3">
+                        <img
+                            width="362"
+                            height="215"
+                            loading="lazy"
+                            class="img-fluid"
+                            src="/assets/imgs/home/bread-2.webp"
+                            alt="Hashems Grilled Eggplant And Zucchini Sabich Pita"
+                        />
+                        </div>
+                        <div class="px-1 d-flex justify-content-between  pb-2">
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
+                                    <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
+                                </svg>
+                                    30 mins 
+                            </div>
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    Beginner
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="fs-16 fw-600 black-color line-h-normal">
+                                Grilled Eggplant And Zucchini Sabich Pita
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-5">
+                    <a href="#" class="text-decoration-none">
+                    <div class="top-item">
+                        <div class="image mb-3">
+                        <img
+                            width="362"
+                            height="215"
+                            loading="lazy"
+                            class="img-fluid"
+                            src="/assets/imgs/home/meat-1.webp"
+                            alt="Hashems Grilled Lamb Skewers with Couscous Tabbouleh"
+                        />
+                        </div>
+                        <div class="px-1 d-flex justify-content-between  pb-2">
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 18.9375C8.26942 18.9375 6.57769 18.4243 5.13876 17.4629C3.69983 16.5014 2.57832 15.1348 1.91606 13.536C1.25379 11.9371 1.08051 10.1778 1.41813 8.48046C1.75575 6.78313 2.58911 5.22403 3.81282 4.00032C5.03653 2.77661 6.59563 1.94325 8.29296 1.60563C9.9903 1.26801 11.7496 1.44129 13.3485 2.10356C14.9473 2.76582 16.3139 3.88733 17.2754 5.32626C18.2368 6.76519 18.75 8.45692 18.75 10.1875C18.75 12.5081 17.8281 14.7337 16.1872 16.3747C14.5462 18.0156 12.3206 18.9375 10 18.9375ZM10 2.6875C8.51664 2.6875 7.0666 3.12737 5.83323 3.95148C4.59986 4.77559 3.63856 5.94693 3.07091 7.31738C2.50325 8.68782 2.35473 10.1958 2.64411 11.6507C2.9335 13.1055 3.64781 14.4419 4.6967 15.4908C5.7456 16.5397 7.08197 17.254 8.53683 17.5434C9.99168 17.8328 11.4997 17.6843 12.8701 17.1166C14.2406 16.5489 15.4119 15.5876 16.236 14.3543C17.0601 13.1209 17.5 11.6709 17.5 10.1875C17.5 8.19838 16.7098 6.29073 15.3033 4.8842C13.8968 3.47768 11.9891 2.6875 10 2.6875Z" fill="#494949"/>
+                                    <path d="M12.8688 13.9375L9.375 10.4437V4.5625H10.625V9.925L13.75 13.0562L12.8688 13.9375Z" fill="#494949"/>
+                                </svg>
+                                    1 hr 15 mins 
+                            </div>
+                            <div class="fs-14 gray-color-2 line-h-normal">
+                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5275 8.72949C6.19917 8.72949 6.805 8.35783 7.22 7.82949C7.86688 7.00417 8.67893 6.32298 9.60417 5.82949C10.2067 5.50949 10.7292 5.03283 10.9817 4.40033C11.159 3.9572 11.2501 3.48428 11.25 3.00699V2.47949C11.25 2.31373 11.3159 2.15476 11.4331 2.03755C11.5503 1.92034 11.7092 1.85449 11.875 1.85449C12.3723 1.85449 12.8492 2.05204 13.2008 2.40367C13.5525 2.7553 13.75 3.23221 13.75 3.72949C13.75 4.68949 13.5333 5.59866 13.1475 6.41116C12.9258 6.87616 13.2367 7.47949 13.7517 7.47949M13.7517 7.47949H16.3567C17.2117 7.47949 17.9775 8.05783 18.0683 8.90866C18.1058 9.26033 18.125 9.61699 18.125 9.97949C18.1284 12.2598 17.3492 14.4722 15.9175 16.247C15.5942 16.6487 15.095 16.8545 14.58 16.8545H11.2333C10.8304 16.8543 10.43 16.7896 10.0475 16.6628L7.4525 15.7962C7.07009 15.669 6.66968 15.6043 6.26667 15.6045H4.92C4.98917 15.7753 5.06417 15.942 5.145 16.1062C5.30917 16.4395 5.08 16.8545 4.70917 16.8545H3.9525C3.21167 16.8545 2.525 16.4228 2.30917 15.7145C2.02054 14.7672 1.87422 13.7823 1.875 12.792C1.875 11.4978 2.12084 10.262 2.5675 9.12699C2.8225 8.48199 3.4725 8.10449 4.16667 8.10449H5.04417C5.4375 8.10449 5.665 8.56783 5.46084 8.90449C4.74908 10.0761 4.37369 11.4211 4.37584 12.792C4.37447 13.7559 4.55954 14.7109 4.92084 15.6045M13.7517 7.47949H11.875" stroke="#494949" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                    Intermediate
+                            </div>
+                        </div>
+                        <div class="px-1">
+                            <div class="fs-16 fw-600 black-color line-h-normal">
+                                Grilled Lamb Skewers with Couscous Tabbouleh
+                            </div>
+                        </div>
+                    </div>
+                    </a>
                 </div>
             </div>
         </div>

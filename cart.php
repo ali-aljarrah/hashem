@@ -323,8 +323,8 @@
       <div class="container">
         <div>
           <h5 class="fs-24 black-color fw-600 d-flex align-items-center">
-            <span>Guests also took home</span>
-            <a class="fs-14 green-color ms-5 text-decoration-none" href="#"
+            <span>Take a second look</span>
+            <a class="fs-14 green-color ms-5 text-decoration-none" href="/subcategory"
               >Explore now >></a
             >
           </h5>
